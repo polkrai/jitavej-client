@@ -1,0 +1,287 @@
+/** Add css rules here for your application. */
+body {
+  font-family: tahoma,sans-serif;
+  font-size: 18px;
+  background: #eeeeee;
+}
+.full {
+  font-family:tahoma,sans-serif;
+  font-size: 18px;
+  background: #eeeeee;
+  background: url("images/back_header.gif") repeat-x ;
+}
+.iframe {
+  font-family:tahoma,sans-serif;
+  font-size: 18px;
+  background: #eeeeee;
+  width: 970;
+  height: 600;
+}
+.iframe2 {
+  font-family:tahoma,sans-serif;
+  font-size: 18px;
+  width: 970;
+  height: 720;
+}
+.workPanel{
+  padding: 0px;
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  border: 0px;
+}
+.action-bar {
+  background: #92c1f0;
+  padding: 8px 2px 8px 2px;
+  border: 0px solid #add8e6;
+  width: 970;
+}
+.drug-bar {
+  background: #d1e6b3;
+  padding: 8px 2px 8px 2px;
+  border: 0px solid #d1e6b3;
+  width: 970;
+}
+.lab-bar {
+  background: #f3e7b3;
+  padding: 8px 2px 8px 2px;
+  border: 0px solid #f3e7b3;
+  width: 970;
+}
+.dental-bar {
+  background: #ddccff;
+  padding: 8px 2px 8px 2px;
+  border: 0px solid #f3e7b3;
+  width: 970;
+}
+.dental-bar-right{
+  background: #ddccff;
+  padding: 8px 2px 8px 2px;
+  border: 0px solid #f3e7b3;
+  text-align:right;
+  width: 970;
+}
+.save {
+  font-weight: bold;
+  width: 100;
+  height: 40;  
+}
+.cancel {
+  font-weight: normal;
+  background: red;
+  color: black;
+}
+div,td {
+  color:#000000;
+  font-size: 12px;
+}
+
+a:link {
+  color:#0000cc
+}
+     
+a:visited {
+  color:#551a8b
+}
+
+a:active {
+  color:#ff0000
+}
+
+button {
+  display: block;
+  font-size: 16pt
+}
+
+.widePanel {
+  width: 100%
+}
+/*
+img {
+  margin-top: 20px;
+}
+*/
+
+.grid-icon {
+    background-image: url( /images/silk/table.gif );
+}
+
+.settings-icon {
+    background-image: url( images/silk/folder_wrench.gif ) ;
+}
+.folder-icon {
+    background-image: url( images/silk/folder_go.gif );
+}
+.gwt-TabPanelBottom {
+/*  border-color: #92c1f0;
+  border-style: solid;
+  border-width: 3px 2px 2px;
+  overflow: hidden;
+*/  padding: 0px;
+	margin: 0px;
+}
+.gwt-TabPanelBottom2 {
+  border-color: #b3d580;
+  border-style: solid;
+  border-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+.gwt-Button {
+  margin: 0;
+/*  padding: 2px 2px;*/
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  cursor: hand;
+ /* background: url("images/hborder.png") repeat-x 0px -27px;*/
+  border: 1px outset #ccc;
+}
+.edit {
+  margin: 0;
+/*  padding: 2px 2px;*/
+  cursor: pointer;
+  cursor: hand;
+}
+.gwt-DecoratedTabBar .tabMiddleCenter {
+  padding: 8px 16px;
+  cursor: pointer;
+  cursor: hand;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  background: #d0e4f6;
+}
+.gwt-DecoratedTabBar .gwt-TabBarItem-selected .tabMiddleCenter {
+  cursor: default;
+  padding: 8px 16px;
+}
+.drug {
+	font-weight: bold;
+	font-size: 14px;
+}
+.day {
+	font-weight: bold;
+	font-size: 13px;
+}
+.gty {
+	width: 10px;
+}
+.header1 {
+	font-size: 24px;
+	font-weight: bold;
+	color: blue;
+	border: 0px solid #aaaaaa;
+}
+.header2 {
+	font-size: 24px;
+	font-weight: bold;
+	color: red;
+	border: 0px solid #aaaaaa;
+}
+.header3 {
+	font-size: 18px;
+	font-weight: bold;
+	color: blue;
+	border: 0px solid #aaaaaa;
+}
+.header4 {
+	font-size: 16px;
+	font-weight: bold;
+	color: red;
+	border: 0px solid #aaaaaa;
+}
+.sum-black{
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: right;
+	width: 160px;
+}
+
+.sum-red{
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: right;
+}
+.appointment-day-box {
+	width: 150px;
+	background-color: #eeeeee;
+	border: 1px solid #aaaaaa;
+	padding: 0px;
+	overflow: hidden;
+}
+.appointment-box {
+	background-color: #eecc99;
+	border: 1px solid #2952a3;
+	margin-right: 4px;
+	color: blue;
+	overflow: hidden;
+}
+.gwt-GlassPanel { /* Override glass panel color to be `green` */
+	background-color: black !important;
+	cursor: not-allowed;
+	/* Override glass panel to 10% opacity (= 90% transparency) */
+	filter: alpha(opacity =  25) !important; /* IE */
+	opacity: 0.30 !important; /* non-IE */ /*
+      NOTE: Please do NOT use either CSS 'width' or 'height' here, as
+      this would defeat much of the effort that went into GlassPanel
+      in order to get it to work consistently in a variety of
+      circumstances. Specifically, please resist the urge to use
+      'width/height: 100%' or similar constructs.
+    */
+}
+/*.gwt-SuggestBoxPopup { 
+  font-size: 83%; 
+  font-weight: normal; 
+  background-color: #ffffff; 
+  border: solid 1px blue; 
+  width: 250px; 
+  height: 500px; 
+  overflow: scroll; 
+  vertical-align: top;   
+} */
+
+
+
+
+
+
+
+.header {
+  background-color: #f2f2f2; 
+
+} 
+
+.header td {
+  	padding-left: 4px;
+	font-weight: bold;
+	vertical-align: middle; 
+  	border-bottom: 1px solid #e8e8e8;
+    border-collapse:collapse;
+	height: 28px;
+} 
+.grid {
+} 
+
+.grid td {
+  	padding-left: 4px;
+	vertical-align: middle; 
+    border-bottom: 1px solid #e8e8e8;
+	border-collapse:collapse;
+	height: 28px;
+} 
+.grid tr:hover { 
+  background-color: #edf0f5; 
+}
+.grid tr.grid-selected:hover { 
+  background-color: #cde0f5; 
+}
+.grid-selected{
+	background: #cde0f5;
+}
+
+

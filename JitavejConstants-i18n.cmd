@@ -1,0 +1,1 @@
+@java -cp "%~dp0\src;%~dp0\bin;C:/Users/Tee/Desktop/dev/gwt-1.5.2/gwt-user.jar;C:/Users/Tee/Desktop/dev/gwt-1.5.2/gwt-dev-windows.jar" com.google.gwt.i18n.tools.I18NSync -out "%~dp0\src" com.neural.jitavej.client.JitavejConstants 

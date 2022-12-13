@@ -1,0 +1,1 @@
+@java -cp "%~dp0\src;%~dp0\bin;C:/Users/Tee/Desktop/Dev/gwt-1.5.2/gwt-user.jar;C:/Users/Tee/Desktop/Dev/gwt-1.5.2/gwt-dev-windows.jar;C:/Users/Tee/Desktop/apps/jitavej-client/lib/gwt-incubator.jar;C:/Users/Tee/Desktop/apps/jitavej-client/lib/gwtext.jar;" com.google.gwt.dev.GWTShell -port 8888 -out "%~dp0\www" %* com.neural.jitavej.Jitavej/Jitavej.html

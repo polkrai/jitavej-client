@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry exported="true" kind="lib" path="lib/aspriseTIFF.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/gwtchismes-0.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/gwtext.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/gwt-incubator.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/gxt.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jxl.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/poi-3.0-alpha3-20061212.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/r1dvision.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/rvision.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Tee/Desktop/Dev/gwt-1.5.2/gwt-user.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Tee/Desktop/Dev/gwt-1.5.2/gwt-dev-windows.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Tee/Desktop/Dev/gwt-1.5.2/gwt-servlet.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files (x86)/Java/jdk1.6.0_45/lib/tools.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/postgresql-8.3-607.jdbc3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
